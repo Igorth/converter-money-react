@@ -13,7 +13,7 @@ export default class Conversor extends Component {
   }
 
   converter() {
-    
+    let apiKey = `f585869aca9d847b32e0`;
     let to_for = `${this.props.moedaA}_${this.props.moedaB}`;
     let url = `https://free.currconv.com/api/v7/convert?q=${to_for}&compact=y&apiKey=${apiKey}`;
 
